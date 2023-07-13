@@ -1,0 +1,63 @@
+[
+    {
+        "_id": "e851f2be-41c3-4656-b289-d258212dcd49",
+        "colId": "history",
+        "containerId": "",
+        "name": "localhost:8000/api/student",
+        "url": "localhost:8000/api/student",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2023-07-13T11:55:51.045Z",
+        "modified": "2023-07-13T11:55:51.045Z",
+        "headers": [],
+        "params": [],
+        "tests": []
+    },
+    {
+        "_id": "0d2084d5-2416-4871-ac66-87e03303aa59",
+        "colId": "history",
+        "containerId": "",
+        "name": "localhost:8000/api/student/1",
+        "url": "localhost:8000/api/student/1",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2023-07-13T11:59:43.387Z",
+        "modified": "2023-07-13T11:59:43.387Z",
+        "headers": [],
+        "params": [],
+        "tests": []
+    },
+    {
+        "_id": "1ba78a21-c1ee-47f1-af26-c2017e805c70",
+        "colId": "history",
+        "containerId": "",
+        "name": "localhost:8000/api/student/15",
+        "url": "localhost:8000/api/student/15",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2023-07-13T12:00:28.916Z",
+        "modified": "2023-07-13T12:00:28.916Z",
+        "headers": [],
+        "params": [],
+        "tests": []
+    },
+    {
+        "_id": "ecd04ce2-3b26-45e7-b9c9-0b487ad82826",
+        "colId": "history",
+        "containerId": "",
+        "name": "localhost:8000/api/student",
+        "url": "localhost:8000/api/student",
+        "method": "POST",
+        "sortNum": 0,
+        "created": "2023-07-13T12:07:07.212Z",
+        "modified": "2023-07-13T12:07:54.696Z",
+        "headers": [],
+        "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n  \n  \"name\":\"test\",\n  \"birthdate\":\"2020-02-02\",\n  \"address\":\"rue truc truc\"\n}",
+            "form": []
+        },
+        "tests": []
+    }
+]
