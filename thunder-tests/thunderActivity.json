@@ -92,5 +92,19 @@
             "form": []
         },
         "tests": []
+    },
+    {
+        "_id": "73c9d020-c647-4c81-9f2b-d7dc8fb8b9bb",
+        "colId": "history",
+        "containerId": "",
+        "name": "localhost:8000/api/note",
+        "url": "localhost:8000/api/note",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2023-07-13T14:35:28.133Z",
+        "modified": "2023-07-13T14:35:28.133Z",
+        "headers": [],
+        "params": [],
+        "tests": []
     }
 ]

@@ -23,7 +23,7 @@ class Note
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $attachmentLink = null;
 
-    #[ORM\ManyToOne(inversedBy: 'notes')]
+    #[ORM\ManyToOne(inversedBy: 'notes', fetch:'EAGER')] //Fetch eager signifie qu'il fera un INNER JOIN avec la table student
     #[ORM\JoinColumn(nullable: false)]
     private ?Student $student = null;
 
