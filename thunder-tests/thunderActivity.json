@@ -8,7 +8,7 @@
         "method": "GET",
         "sortNum": 0,
         "created": "2023-07-13T11:55:51.045Z",
-        "modified": "2023-07-13T11:55:51.045Z",
+        "modified": "2023-07-13T14:16:04.430Z",
         "headers": [],
         "params": [],
         "tests": []
@@ -56,6 +56,39 @@
         "body": {
             "type": "json",
             "raw": "{\n  \n  \"name\":\"test\",\n  \"birthdate\":\"2020-02-02\",\n  \"address\":\"rue truc truc\"\n}",
+            "form": []
+        },
+        "tests": []
+    },
+    {
+        "_id": "5981f1f6-cfc6-4f3e-ade5-8b454556cb03",
+        "colId": "history",
+        "containerId": "",
+        "name": "localhost:8000/api/student/4",
+        "url": "localhost:8000/api/student/4",
+        "method": "DELETE",
+        "sortNum": 0,
+        "created": "2023-07-13T13:53:44.347Z",
+        "modified": "2023-07-13T13:53:44.347Z",
+        "headers": [],
+        "params": [],
+        "tests": []
+    },
+    {
+        "_id": "97ef1f78-15da-4f11-8674-c961419c2192",
+        "colId": "history",
+        "containerId": "",
+        "name": "localhost:8000/api/student/1",
+        "url": "localhost:8000/api/student/1",
+        "method": "PATCH",
+        "sortNum": 0,
+        "created": "2023-07-13T13:54:14.643Z",
+        "modified": "2023-07-13T13:54:14.643Z",
+        "headers": [],
+        "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n  \"name\":\"changed name\"\n}",
             "form": []
         },
         "tests": []
